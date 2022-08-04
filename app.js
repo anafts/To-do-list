@@ -3,7 +3,9 @@ const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
+const dotenv = require("dotenv");
 
+dotenv.config()
 
 app.set( "view engine" , "ejs"); 
 
@@ -11,7 +13,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public')); 
 
 // Connection URL
-mongoose.connect('mongodb+srv://admin-ana:1602beatriz@cluster0.zdher41.mongodb.net/todolistDB');
+mongoose.connect(`mongodb+srv://${process.env.USER_KEY}:${process.env.PASSWORD}@cluster0.zdher41.mongodb.net/todolistDB`);
 
 // mongoose schema 
        // to do list schema
@@ -132,5 +134,5 @@ app.post("/delete" , function(req, res){
 
 
 app.listen(process.env.PORT|| 3000 , function(){
-    console.log("Server stared!");
-});
+    console.log("Server stared !");
+}); 
