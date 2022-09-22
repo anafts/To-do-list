@@ -11,9 +11,9 @@
 
 ## 💻 Descrição do projeto:
 
-O projeto é um to do list, onde você pode adicionar os items que precisa fazer e removê-los quando concluir. 
+O projeto é um to do list, onde você pode adicionar os itens que precisa fazer e removê-los quando concluir. 
  
- No projeto, além das tecnologias citadas foi usado também o EJS e o Mongoose. 
+ No projeto, além das tecnologias citadas, foi usado também o EJS e o Mongoose. 
  <br>
 
 
