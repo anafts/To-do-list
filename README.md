@@ -1,8 +1,8 @@
 <h1 align="center"><a href="#" alt="to do list"> TO DO LIST 📝 </a></h1>
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/anafts/Emojipedia-react?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/anafts/Emojipedia-react?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/anafts/To-do-list?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/anafts/To-do-list?style=for-the-badge)
 
 
 ![preview](./.github/preview.png)
