@@ -11,9 +11,9 @@
 
 ## 💻 Descrição do projeto:
 
-O projeto é um to do list, onde você pode adicionar os itens que precisa fazer e removê-los quando concluir. 
+O projeto é um to do list, onde você pode adicionar listas de tarefas que você precisa realizar e removê-las quando concluí-las
  
- No projeto, além das tecnologias citadas, foi usado também o EJS e o Mongoose. 
+
  <br>
 
 
@@ -49,9 +49,15 @@ $ nodemon app.js
 
 <br>
 
-## 🚀 Deploy:
-[Clique aqui para acessar](https://limitless-harbor-69573.herokuapp.com/)
+## 🚀 Deploy e funcionalidades:
+ Para acessar o link do projeto [clique aqui](https://limitless-harbor-69573.herokuapp.com/)
 
+Além disso também é possível nomear como desejar, basta apenas modificar o final do link, adicionando uma "/" mais o nome que deseja atribuir a sua lista.
+
+Exemplo: 
+https://limitless-harbor-69573.herokuapp.com/work
+
+Assim, sua lista passa a ter "work" como nome. 
 <br>
 
 ## 🛠️ Linguagens, dependencias e libs utilizadas:
@@ -64,6 +70,8 @@ $ nodemon app.js
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
 <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white">
 
+
+No projeto, além das tecnologias citadas, foi usado também o EJS e o Mongoose. 
 
 <br>
 
